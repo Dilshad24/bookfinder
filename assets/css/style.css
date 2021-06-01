@@ -1,0 +1,52 @@
+body {
+  background-image: url("../img/img2.jpg");
+  background-color: #232220;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.center {
+  margin: auto;
+  margin-top: 200px;
+}
+
+#header {
+  font-family: "Righteous", sans-serif;
+  font-size: 3rem;
+  color: #e0e0e0;
+}
+h2 {
+  font-family: "Righteous", sans-serif;
+  color: #adadac;
+}
+
+.book-list {
+  margin-top: 50px;
+  visibility: hidden;
+}
+.card {
+  margin-bottom: 10px;
+}
+.card:hover {
+  opacity: 0.5;
+  transition: 0.5s;
+}
+#loading {
+  background-image: url("../img/loop1.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+#loading video {
+  height: 400px;
+}
